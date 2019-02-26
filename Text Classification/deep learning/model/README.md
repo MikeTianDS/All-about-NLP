@@ -1,9 +1,17 @@
-# TextClassification-Keras
+# Text Classification with deep learning models
 
-This code repository implements a variety of **deep learning models** for **text classification** using the **Keras** framework, which includes: **FastText**, **TextCNN**, **TextRNN**, **TextBiRNN**, **TextAttBiRNN**, **HAN**, **RCNN**, **RCNNVariant**, etc. In addition to the model implementation, a simplified application is included.
+This code repository implements a variety of **deep learning models** for **text classification** using the **Keras** framework, which includes: 
+**FastText** 
+**TextCNN** 
+**TextRNN**
+**TextBiRNN**
+**HAN**
+**RCNN**
+**RCNNVariant**, etc. 
 
-- [English documents](README.md)
-- [中文文档](README-ZH.md)
+In addition to the model implementation, a simplified application is included.
+
+-
 
 ## Guidance
 
