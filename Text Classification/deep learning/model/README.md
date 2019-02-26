@@ -7,27 +7,13 @@ This code repository implements a variety of **deep learning models** for **text
 **TextBiRNN**
 **HAN**
 **RCNN**
-**RCNNVariant**, etc. 
+**RCNNVariant**
 
-In addition to the model implementation, a simplified application is included.
+Still updating...
 
--
+Used keras - imdb review as the example dataset
 
-## Guidance
 
-1. [Environment](#environment)
-2. [Usage](#usage)
-3. [Model](#model)
-    1. [FastText](#1-fasttext)
-    2. [TextCNN](#2-textcnn)
-    3. [TextRNN](#3-textrnn)
-    4. [TextBiRNN](#4-textbirnn)
-    5. [TextAttBiRNN](#5-textattbirnn)
-    6. [HAN](#6-han)
-    7. [RCNN](#7-rcnn)
-    8. [RCNNVariant](#8-rcnnvariant)
-    999. [To Be Continued...](#to-be-continued)
-4. [Reference](#reference)
 
 ## Environment
 
@@ -36,11 +22,7 @@ In addition to the model implementation, a simplified application is included.
 - Keras 2.2.0
 - Tensorflow 1.8.0
 
-## Usage
 
-All codes are located in the directory ```/model```, and each kind of model has a corresponding directory in which the model and application are placed.
-
-For example, the model and application of FastText are located under ```/model/FastText```, the model part is ```fast_text.py```, and the application part is ```main.py```.
 
 ## Model
 
