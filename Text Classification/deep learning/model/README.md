@@ -2,11 +2,17 @@
 
 This code repository implements a variety of **deep learning models** for **text classification** using the **Keras** framework, which includes: 
 **FastText** 
+
 **TextCNN** 
+
 **TextRNN**
+
 **TextBiRNN**
+
 **HAN**
+
 **RCNN**
+
 **RCNNVariant**
 
 Still updating...
@@ -106,27 +112,7 @@ TextAttBiRNN is an improved model which introduces attention mechanism based on 
 
 #### 5.1 Description in Paper
 
-<p align="center">
-	<img src="image/FeedForwardAttention.png">
-</p>
 
-In the paper [Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems](https://arxiv.org/pdf/1512.08756.pdf), the **feed forward attention** is simplified as follows,
-
-<p align="center">
-	<img src="image/FeedForwardAttetion_fomular.png">
-</p>
-
-Function `a`, a learnable function, is recognized as a **feed forward network**. In this formulation, attention can be seen as producing a fixed-length embedding `c` of the input sequence by computing an **adaptive weighted average** of the state sequence `h`.
-
-#### 5.2 Implementation Here
-
-The implementation of attention is not described here, please refer to the source code directly.
-
-Network structure of TextAttBiRNN:
-
-<p align="center">
-	<img src="image/TextAttBiRNN_network_structure.png">
-</p>
 
 ### 6 HAN
 
@@ -179,21 +165,11 @@ Network structure of RCNN:
 
 ### 8 RCNNVariant
 
-RCNNVariant is an improved model based on RCNN with the following improvements. No related papers have been found yet.
 
-1. The three inputs are changed to **single input**. The input of the left and right contexts is removed.
-2. Use **bidirectional LSTM/GRU** instead of traditional RNN for encoding context.
-3. Use **multi-channel CNN** to represent the semantic vectors. 
-4. Replace the Tanh activation layer with the **ReLU activation layer**.
-5. Use both **AveragePooling** and **MaxPooling**.
 
-Network structure of RCNNVariant:
 
-<p align="center">
-	<img src="image/RCNNVariant_network_structure.png">
-</p>
 
-### To Be Continued...
+## To Be Continued...
 
 ## Reference
 
