@@ -28,7 +28,7 @@ http://www.sogou.com/labs/resource/cs.php
 ### Results
 
 ![](https://git.oschina.net/uploads/images/2017/0724/105517_0327b8f1_1452419.png "")
-![image](http://github.com/MikeTianDS/Research-on-NLP/raw/master/Text%20Classification/images/res_ml.jpg)
+![image](https://github.com/MikeTianDS/Research-on-NLP/raw/master/Text%20Classification/traditional%20methods/images/ML_res.jpg)
 
 ### Outcomes
 
